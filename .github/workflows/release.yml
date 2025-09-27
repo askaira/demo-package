@@ -1,0 +1,4 @@
+on:
+  push:
+    tags:
+      - 'v*'   # only publish when a tag like v1.0.0 is pushed

@@ -1,0 +1,6 @@
+README.md
+pyproject.toml
+demo_python_pkg.egg-info/PKG-INFO
+demo_python_pkg.egg-info/SOURCES.txt
+demo_python_pkg.egg-info/dependency_links.txt
+demo_python_pkg.egg-info/top_level.txt

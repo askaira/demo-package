@@ -1,0 +1,10 @@
+- name: Publish to PyPI with action
+  uses: pypa/gh-action-pypi-publish@v1.5.0
+  with:
+    user: __token__
+    password: ${{ secrets.PYPI_TOKEN }}
+name: Release Python package
+on:
+  push:
+    tags:
+      - 'v*.*.*'   # only publish when a tag like v1.0.0 is pushed  
